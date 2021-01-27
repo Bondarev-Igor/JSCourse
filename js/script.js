@@ -78,3 +78,12 @@
 //  promise2.then (console.log);
 //  setTimeout(console.log, 1000, 5);
 //  console.log('6');
+ 
+let incr = 10,
+    decr = 10;
+
+    // ++incr;
+    // --decr;
+
+    console.log(incr++);
+    console.log(decr--);
