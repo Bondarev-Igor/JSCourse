@@ -16,7 +16,7 @@ const options = {
 
 console.log(Object.keys(options).length);
 options.makeTest();
-console.log(options['colors']['bg']);
+console.log(options.colors.bg);
 
 // Простой пример деструктуризации:
 const {border, bg} = options.colors;
