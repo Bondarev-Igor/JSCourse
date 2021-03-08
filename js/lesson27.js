@@ -20,20 +20,21 @@ console.log( "1"[0] ); //1
  console.log(2 && 1 &&null&& 0 &&undefined); //null
 
 // •	Есть ли разница между выражениями?
-console.log (!!( a && b ) (a && b));
+console.log (!!( a && b ) ===  (a && b));
 
 // •	Что выведет этот код:
- alert( null || 2 && 3 || 4 );
+ alert( null || 2 && 3 || 4 ); //3 сначала отработает && потом ||
 
-// •	a = [1, 2, 3]; b = [1, 2, 3];
- Правда ли что a == b ?
+// •  Правда ли что a == b ?
+ let a = [1, 2, 3], b = [1, 2, 3]; //false
+ console.log(a == b);
 
 // •	Что выведет этот код:
- alert( +"Infinity" );
+ alert( +"Infinity" ); // Infinity how number
 
-// •	Верно ли сравнение:
- "Ёжик" > "яблоко"?
+// •	Верно ли сравнение ?
+ console.log("Ёжик" > "яблоко"); //false
 
 // •	Чему равно:
-0 || "" || 2 || undefined || true || falsе 
+console.log(0 || "" || 2 || undefined || true); 
 
